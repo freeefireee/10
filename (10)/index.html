@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>M1steR.X</title>
+</head>
+<body>
+    <div class="tepa-qism">
+        <i class="fa-solid fa-house" id="id" style="color: #ffffff;">Home</i>
+        <input type="text" name="text" id="input1">
+        
+            <i class="fa-solid fa-user" id="user-button" style="color: #ffffff;"></i>
+    </div>
+    <section class="forms-section">
+        <h1 class="section-title">Animated forms</h1>
+        <div class="modal" id="modal">
+                <div class="modal-content">
+                    <button class="swithcer switcher-login" type="button">
+                        Login 
+                        <span class="underline"></span>
+                    </button>
+                    <form action="" class="form form-login">
+                        <fieldset>
+                            <legend>
+                                Please, enter your email and password for login
+                            </legend>
+                            <div class="input-block">
+                                <label for="login-email">E-mail</label>
+                                <input type="email" name="" id="login-email">
+                            </div>
+                            <div class="input-block">
+                                <label for="login-password">Password</label>
+                                <input type="password" name="" id="login-password">
+                            </div>
+                        </fieldset>
+                        <button type="submit" class="btn-login"></button>
+                    </form>
+                    <div class="form-wrapper">
+                        <button type="button" class="switcher swithcer-signup">
+                            sign Up
+                            <span class="underline"></span>
+                        </button>
+                        <form class="form form-signup">
+                            <fieldset>
+                                <legend>
+                                    Please, enter your email, password and password confirmation for sign Up
+                                </legend>
+                                <div class="input-block">
+                                    <label for="signup-email">E-mail</label>
+                                    <input type="email" name="" id="signup-email" required>
+                                </div>
+                                <div class="input-block">
+                                    <label for="signup-password">Password</label>
+                                    <input type="password" name="" id="signup-password" required>
+                                </div>
+                                <div class="input-block">
+                                    <label for="signup-password-confrim">Confrim password</label>
+                                    <input type="password" name="" id="signup-password-confrim" required>   
+                                </div>
+                            </fieldset>
+                            <button type="submit" class="btn-signup">
+                                Continue
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section> 
+        <script src="./script.js"></script>
+</body>
+</html>
